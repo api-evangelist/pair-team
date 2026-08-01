@@ -1,8 +1,27 @@
 aid: pair-team
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pair-team.png
 name: Pair Team
-description: 'Pair Team is a company surfaced as a portfolio company of craft-ventures and added to the
-  API Evangelist network as a stub for enrichment. Sector: health. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Pair Team, PBC is a healthcare care-coordination company that pairs clinical
+  care teams with technology to deliver comprehensive care management for underserved and
+  vulnerable populations. It runs Enhanced Care Management for Medi-Cal (California Medicaid)
+  members and a Medicare support program, coordinating housing assistance, food access,
+  behavioral and mental health support, appointment scheduling, medication management,
+  and transportation for people managing chronic conditions and social determinants of
+  health. Its Flora AI care advocate helps triage and connect members to resources and
+  escalates to clinical staff. Backed by Craft Ventures. Pair Team publishes no public
+  developer API, SDK, or documentation surface at this time; this profile captures its
+  company identity and public web properties.'
 url: https://raw.githubusercontent.com/api-evangelist/pair-team/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +31,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Health
+- Healthcare
+- Care Coordination
+- Medicaid
+- Medicare
+- Care Management
+- Social Determinants of Health
+- Digital Health
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +49,30 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/pair-team-domain-security.yml
 - type: Website
   url: https://pairteam.com
+- type: Blog
+  url: https://pairteam.com/blog/
+- type: PrivacyPolicy
+  url: https://pairteam.com/privacy
+- type: TermsOfService
+  url: https://pairteam.com/terms
+- type: About
+  url: https://pairteam.com/about
+- type: Support
+  url: mailto:support@pairteam.com
+- type: SignUp
+  url: https://pairteam.jotform.com/team/pair-team/social-support
+- type: Careers
+  url: https://job-boards.greenhouse.io/pairteam
+- type: LinkedIn
+  url: https://www.linkedin.com/company/yourpairteam
+- type: Twitter
+  url: https://x.com/yourpairteam
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  pass: local-v1
+  artifacts_added: 1
